@@ -1,0 +1,89 @@
+@keyframes rotate-1{
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+@keyframes rotate-2{
+    0% { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+}
+
+@keyframes dolph{
+    0%,100% { transform: rotate(0deg);}
+    50% { transform: rotate(135deg) translate(11vw, 12.5vw);}
+}
+
+@keyframes changecolor-1{
+    0%,100% { color: white;}
+    50% { color: #FF051A;}
+}
+
+@keyframes cloudhov1{
+    0%,100% { transform: rotate(0deg);}
+    50% { transform: rotate(15deg) }
+}
+
+@keyframes cloudhov2{
+    0%,100% { transform: rotate(0deg);}
+    50% { transform: rotate(-15deg) }
+}
+
+@keyframes changecolor-2{
+    0%,100% { color: #FFDD00;}
+    50% { color: white;}
+}
+
+@keyframes opacity{
+    0%, 100%{ opacity: 100%;}
+    50%{ opacity: 0%;}
+}
+
+@keyframes derg{
+    0%,100% { transform: rotate(-30deg);}
+    50% { transform: rotate(30deg) }
+}
+
+@keyframes grad {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+@keyframes drop-1{
+    0%{ transform: translateY(-6%)}
+    100% { transform: translateY(0)}
+}
+
+@keyframes drop-2{
+    0%{ transform: translateY(6%)}
+    100% { transform: translateY(0)}
+}
+
+@keyframes pers{
+    0%,100% { transform: rotate(0deg) scaleX(-1);}
+    50% { transform: rotate(15deg) scaleX(-1)}
+}
+
+@keyframes num1{
+    0%,100%{ transform: translateX(30vw)}
+    50% { transform: translateX(-70vw)}
+}
+
+@keyframes num2{
+    0%,100%{ transform: translateX(-70vw)}
+    50% { transform: translateX(50vw)}
+}
+
+@keyframes num3{
+    0%,100%{ opacity: 100%;}
+    50% { opacity: 0;}
+}
+
+@keyframes num4{
+    0%,100%{ transform: translateX(100vw)}
+    50% { transform: translateX(-100vw)}
+}
+
+@keyframes num5{
+    0%,100%{ transform: translateX(-10vw)}
+    50% { transform: translateX(30vw)}
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'arial narrow';
+    src: url('../fonts/arialnarrow_bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'arial narrow italic';
+    src: url('../fonts/arialnarrow_bolditalic.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'arial narrow';
+    src: url('../fonts/arialnarrow.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'arial narrow italic';
+    src: url('../fonts/arialnarrow_italic.ttf');
+    font-weight: 400;
+}
